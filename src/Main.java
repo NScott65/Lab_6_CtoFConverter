@@ -23,6 +23,7 @@ public class Main {
                 done = true;
 
             }else{
+                scan.nextLine();
                 System.out.println("Your input was invalid. Try again.");
             }
         }while(!done);
